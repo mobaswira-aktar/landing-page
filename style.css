@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "SF Pro Display", Arial, sans-serif;
+  src: url("font/SF-Pro-Display-Light.woff") format("woff2"),
+    url("font/sf-pro-text-heavy.woff") format("woff");
+  /* You can specify additional font properties here */
+}
+
+body {
+  font-family: "SF Pro Display", Arial, sans-serif;
+}
+.small-f {
+  color: #4f4f4f;
+  font-size: 16px;
+}
+.havvy {
+  color: #eb5757;
+  font-size: 48px;
+  font-weight: 900;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.my-bg {
+  background-color: #f2f2f2;
+}
+
+.btn-grad {
+  background-image: linear-gradient(to right, #eb7598, #ff926f);
+  padding: 8px 35px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+}
+.btn-grad-2 {
+  background-color: #f2c94c;
+  padding: 8px 35px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0 20px #eee;
+  border-radius: 50px;
+  font-weight: bold;
+}
+button.btn-grad.text-center {
+  margin-top: 13px;
+  margin-bottom: -15px !important;
+}
+.top-n {
+  padding: 1rem;
+  color: #d89595;
+  border: 1px solid;
+  border-radius: 50%;
+}
